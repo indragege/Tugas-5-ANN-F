@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model files
+model/*.h5
+model/*.pkl
+
+# Model dan Data
+static/*.png
+static/model_summary_*.txt
+!model/model_prediksi_pneumonia.h5
+model/__pycache__/
+
+# Dataset
+*.csv
+!dinkes-od_18513_jml_kasus_penyakit_pneumonia__kabupatenkota_v2_data.csv
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
